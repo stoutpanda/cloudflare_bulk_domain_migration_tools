@@ -39,7 +39,7 @@ Create a `.env` file in the repository root with the following variables:
 ACCOUNT_ID=""             # Cloudflare account ID (find this in the Workers & Pages section or elsewhere in your Cloudflare dashboard).
 ACCOUNT_API_TOKEN=""      # Cloudflare account API token. The permissions I used included bulk management options, though these might not be necessary since I could not utliize the bulk api.
 TARGET_URL=               # The full target URL (including https://) to which the domains will be redirected.
-ENABLE_QUICK_SCAN="false" # Set to "true" to enable Cloudflare’s quick DNS scan for creating DNS records. Use with caution, as the quick scan may miss some records.
+ENABLE_QUICK_SCAN="false" # Set to "true" to enable Cloudflare’s quick DNS scan for creating DNS records. Use with caution, as the quick scan may miss some records. ```
 
 Note: Sample images showing the required API token permissions are included in the repository as apiperms1.png.
 
